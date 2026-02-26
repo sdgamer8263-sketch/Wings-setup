@@ -214,7 +214,8 @@ while true; do
             public_ip_setup
             ;;
         2)
-         bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/Ws)  
+         bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/Wings)  
+         bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/A1)  
             ;;
         3)
         bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/D)  
