@@ -35,10 +35,7 @@ show_menu() {
     echo -e "${LT}════════════════════════════════════════════════════════════${RT}${N}"
     echo -e "${VL}${G}   1. ${W}🌐 SSL                  ${B}${VL}${N}"
     echo -e "${VL}${C}   2. ${W}🏠 Wings                         ${B}${VL}${N}"
-    echo -e "${VL}${R}   3. ${W}🗑️ Uninstall             ${B}${VL}${N}"
-    echo -e "${VL}${R}   4. ${W}🗑️ Setup 1             ${B}${VL}${N}"
-    echo -e "${VL}${R}   5. ${W}🗑️ Setup 2            ${B}${VL}${N}"
-    echo -e "${VL}${R}   6. ${W}🗑️ Database             ${B}${VL}${N}"
+    echo -e "${VL}${R}   3. ${W}🗑️ Database             ${B}${VL}${N}"
     echo -e "${VL}${Y}   0. ${W}🚪 Exit                                        ${B}${VL}${N}"
     echo -e "${BL}════════════════════════════════════════════════════════════${BR}${N}\n"
 }
@@ -217,18 +214,8 @@ while true; do
             public_ip_setup
             ;;
         2)
-            show_local_ip
+        3)bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/Ws)  
             ;;
-        3)
-            uninstall_wings
-            ;;
-        4) 
-            bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/A1)
-            ;;
-        5)  
-            bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/A2)
-            ;;
-        6)
          bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/D)  
             ;;
         0)
