@@ -25,7 +25,7 @@ show_header() {
     echo -e "${M}${TL}════════════════════════════════════════════════════════════${TR}${N}"
     echo -e "${VL}${W}                🚀 SDGAMER CONTROL PANEL                    ${M}${VL}${N}"
     echo -e "${LT}════════════════════════════════════════════════════════════${RT}${N}"
-    echo -e "${VL}${Y}               Version 2.0 • Server Manager               ${M}${VL}${N}"
+    echo -e "${VL}${Y}               Version 3.0 • Server Manager               ${M}${VL}${N}"
     echo -e "${BL}════════════════════════════════════════════════════════════${BR}${N}\n"
 }
 
